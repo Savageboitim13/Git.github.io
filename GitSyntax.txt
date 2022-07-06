@@ -1,0 +1,67 @@
+The GitHub flow works like this:
+Create a new Branch
+Make changes and add Commits
+Open a Pull Request
+Review
+Deploy
+Merge
+
+Checking current git version
+git --version
+
+Configuring Your Name & Email to the git bash terminal
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+Initializing a repository
+git init
+
+Checking the status
+git status
+
+Staging files
+git add file.txt
+git add file1.txt file2.txt file3.txt
+git add --all
+git add .
+
+Making commits
+git commit -m "Commit Message"
+
+Get branches
+git branch	  # Getting only local branches
+git branch -a # Getting all branches
+gir branch --all # Same as 'git branch -a'
+git branch -r # Getting only remoted branched
+
+Commit history
+git log
+git checkout <commit-hash>
+
+Switch to 'master' branch
+git checkout master
+
+Ignoring files
+Files with '.gitignore' ending
+
+Creating a new branch
+git branch <new-branch-name>
+
+Switching branches
+git checkout <branch-name>
+
+Create & Switch branches
+git checkout -b <new-branch-name>
+
+Merging branches
+git merge <branch-name>
+
+Deleting branches
+git branch -d <branch-name>
+
+# Connecting to remote repositories
+	Adding remote repository to local Git-Repository
+	git remote add origin <URL>
+
+	Set a standart remote branch
+	git push --set-upstream origin master
